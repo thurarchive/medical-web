@@ -2,6 +2,7 @@
 
 Lebih jelasnya liat ini [Video tutor](https://www.youtube.com/watch?v=FhkqMHxchZ8).
 
+pastiin kalian punya seluruh dependencies untuk run React dan Django
 
 ## command bikin react project
 
@@ -23,6 +24,10 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## Dibawah ini udahh template
+
+### Django Development Server
+Django comes with a built-in development server, run di directory djangoproj di IDE favorit kalian:
+`python manage.py runserver`
 
 ### `npm test`
 
