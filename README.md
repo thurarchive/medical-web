@@ -1,3 +1,13 @@
+# UPDATED INSTRUCTIONS ‼️
+1. Pull the Repo
+2. In your VSCode's terminal, **ENSURE** that you have 'cd' into the directory of **`medical-web/medicalWeb/djangoproj/reactapp`** as that would be your deployment base
+3. type **`npm install [package_name]`** .     copy this: **`npm install react papaparse highcharts highcharts-react-official`** (There might be some other packages that I forgot to mention here)
+4. ### `npm start`, open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
+5. If step (4) fails, there might be some packages that you haven't installed,  just **`npm install [package_name]`** as per instructed by your own VSCode's terminal,   then do step (4) again. 
+
+------------------------------------------------
+------------------------------------------------
+
 # Getting Started with React x Django
 
 Lebih jelasnya liat ini [Video tutor](https://www.youtube.com/watch?v=FhkqMHxchZ8).
