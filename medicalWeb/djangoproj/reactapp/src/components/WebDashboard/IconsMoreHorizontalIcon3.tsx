@@ -1,0 +1,15 @@
+import { memo, SVGProps } from 'react';
+
+const IconsMoreHorizontalIcon3 = (props: SVGProps<SVGSVGElement>) => (
+  <svg preserveAspectRatio='none' viewBox='0 0 25 27' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
+    <path
+      fillRule='evenodd'
+      clipRule='evenodd'
+      d='M19.6228 11.5848C18.5289 11.5848 17.641 12.5646 17.641 13.7719C17.641 14.9791 18.5289 15.9589 19.6228 15.9589C20.7168 15.9589 21.6047 14.9791 21.6047 13.7719C21.6047 12.5646 20.7168 11.5848 19.6228 11.5848ZM12.6867 11.5849C11.5927 11.5849 10.7048 12.5647 10.7048 13.7719C10.7048 14.9792 11.5927 15.959 12.6867 15.959C13.7806 15.959 14.6685 14.9792 14.6685 13.7719C14.6685 12.5647 13.7806 11.5849 12.6867 11.5849ZM3.76898 13.7719C3.76898 12.5647 4.65684 11.5849 5.75081 11.5849C6.84477 11.5849 7.73263 12.5647 7.73263 13.7719C7.73263 14.9792 6.84477 15.959 5.75081 15.959C4.65684 15.959 3.76898 14.9792 3.76898 13.7719Z'
+      fill='white'
+    />
+  </svg>
+);
+
+const Memo = memo(IconsMoreHorizontalIcon3);
+export { Memo as IconsMoreHorizontalIcon3 };

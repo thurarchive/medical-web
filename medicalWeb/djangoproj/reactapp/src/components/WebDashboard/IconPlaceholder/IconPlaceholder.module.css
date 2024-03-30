@@ -1,0 +1,44 @@
+.root {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.base {
+  position: absolute;
+  left: 20.8333%;
+  right: 54.1667%;
+  top: 20.8333%;
+  bottom: 54.1667%;
+  border-radius: 0 2px 2px;
+  background-color: #d2d1d4;
+}
+.base2 {
+  position: absolute;
+  left: 20.8333%;
+  right: 54.1667%;
+  top: 54.1667%;
+  bottom: 20.8333%;
+  border-radius: 2px 2px 2px 0;
+  background-color: #d2d1d4;
+}
+.base3 {
+  position: absolute;
+  left: 54.1667%;
+  right: 20.8333%;
+  top: 20.8333%;
+  bottom: 54.1667%;
+  border-radius: 2px 0 2px 2px;
+  background-color: #d2d1d4;
+}
+.base4 {
+  position: absolute;
+  left: 54.1667%;
+  right: 20.8333%;
+  top: 54.1667%;
+  bottom: 20.8333%;
+  border-radius: 2px 2px 0;
+  background-color: #d2d1d4;
+}
