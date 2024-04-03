@@ -43,7 +43,7 @@ import classes from './WebDashboard.module.css';
 // WebDashboard.tsx
 import PlotChart from '../PlotChart/PlotChart.jsx'
 
-
+import PlotOne from '../PlotChart/PlotOne.jsx'
 
 interface Props {
   className?: string;
@@ -162,19 +162,15 @@ export const WebDashboard: FC<Props> = memo(function WebDashboard(props = {}) {
               <PlotChart /> {/* Render the PlotChart component */}
           </div>
         </div>
-        <div className={classes.group1000001808}>
-        </div>
       </div>
       <div className={classes.frame15}></div>
       <div className={classes.frame172}>
         <div className={classes.group1000001789}>
+          <PlotOne /> {/* Render the PlotChart component */}
           <div className={classes.rectangle8}></div>
         </div>
         <div className={classes.group1000001790}>
           <div className={classes.rectangle7}></div>
-        </div>
-        <div className={classes.group1000001788}>
-          <Group1000001788Icon className={classes.icon11} />
         </div>
       </div>
       <div className={classes.rectangle6}></div>
